@@ -1,8 +1,8 @@
 import java.util.*;
 class Main{
-    static double distance(int a1,int a2,int b1,int b2){
-        return Math.sqrt(((b1-a1)*(b1-a1)) - ((b2-a2)*(b2-a2)));
-    }
+    // static double distance(int a1,int a2,int b1,int b2){
+    //     return Math.sqrt(((b1-a1)*(b1-a1)) - ((b2-a2)*(b2-a2)));
+    // }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[][] arr = new int[3][2];
